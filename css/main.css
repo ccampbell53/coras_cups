@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Coffeetea";
+    src: url("../fonts/coffeeteademo-regular-webfont.woff2") format("woff2"),
+         url("../fonts/coffeeteademo-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*HEADER*/
+h1 {
+  font-family: Coffeetea, sans-serif;
+  text-align: center;
+  padding-top: 0.5em;
+  margin-bottom: -0.3em;
+}
+
+ul.head {
+  text-align: center;
+  margin-left: -2em;
+  padding-bottom: 1.5em;
+}
+
+li.head {
+  display: inline;
+}
+
+
+header {
+  background: #999 url("../img/top.png") center;
+  background-size: cover;
+  }
+
+  img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cup {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    margin: 1%;
+  }
+
+  @media (min-width: 48em) {
+
+  .cup {
+    display: inline-block;
+    width: 30.5%;
+  }
+
+  }
+
+  .info {
+    position: relative;
+  }
+
+  .info img {
+    border: 0;
+  }
+
+  @media (min-width: 60em) {
+
+  .info figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    background: rgba(255, 255, 255, .6);
+    visibility: hidden;
+  }
+
+  a:hover .info figcaption,
+  a:focus .info figcaption{
+    visibility: visible;
+  }
+
+  }
+
+  .info-text {
+    padding: 1em;
+  }
+
+  .info-text p {
+    line-height: 1.4;
+    margin-top: 0;
+  }
+
+/*BODY*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Coffeetea, sans-serif;
+  background-color: #9cf;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+
+img.cup {
+  max-width: 100%;
+  align: center;
+}
+
+figure.cup {
+  display: block;
+  background: #9cf;
+  margin: 0 15% 3em 15%;
+  padding-top: 2em;
+}
+
+details {
+  position: absolute;
+  margin-top: -2em;
+  background-color: #9cf;
+  width: 70%;
+  text-align: center;
+  font-size: 16pt;
+  color: #fff;
+}
+
+div.info {
+  margin: 15% 10% 0 10%;
+  background-color: #9cf;
+  padding: 5% 5% 5% 5%;
+}
+
+div.contact {
+  text-align: center;
+  margin: 15% 0 0 0;
+}
+
+/*FOOTER*/
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 15%;
+}
+
+
+/*IMG*/
+
+img.head {
+  max-width: 100%;
+}
+
+
+@media (min-width: 48em) {
+
+figure.cup {
+  width: 25%;
+}
+
+details {
+  width: 25%;
+}
+
+div.contact {
+  font-size: 22pt;
+}
+
+
+}
