@@ -26,8 +26,10 @@ li.head {
 
 
 header {
-  background: #999 url("../img/top.png") center;
+  background: transparent url("../img/top.png") center;
   background-size: cover;
+  margin-top: -1.3em;
+  margin-bottom: 5em;
   }
 
   img {
@@ -40,7 +42,6 @@ header {
     display: block;
     color: #000;
     text-decoration: none;
-    border: 1px solid #ccc;
     margin: 1%;
   }
 
@@ -88,6 +89,7 @@ header {
   .info-text p {
     line-height: 1.4;
     margin-top: 0;
+    font-size: 16pt;
   }
 
 /*BODY*/
