@@ -45,6 +45,10 @@ header {
     margin: 1%;
   }
 
+body {
+  margin-bottom: 0;
+}
+
   @media (min-width: 48em) {
 
   .cup {
@@ -171,3 +175,9 @@ div.contact {
 a {
    color: #000
 }
+
+.ig {
+  font-size: 12pt}
+
+footer {
+  padding-bottom: 3em;}
